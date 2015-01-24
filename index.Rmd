@@ -73,6 +73,7 @@ Here's an example. Say you make 100,000 and pay 4,000 for insurance premiums and
 ```
 Federal Tax
 ```{r echo=F}
+FederalTaxable <- 100000 - (4000 + 5000) - 5*4000 - 30000
 taxbrackets <- c(18450, 74900, 151200, 230450, 411500, 464850)
 taxrates <- c(0.1, 0.15, 0.25, 0.28, 0.33, 0.35, 0.396)
 tax <- function(fed) {
