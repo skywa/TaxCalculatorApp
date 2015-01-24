@@ -5,13 +5,10 @@ author      : skywa
 job         : Developing Data Products Project
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
-hitheme     : zenburn      # tomorrow
-url:
-#  lib: ../../libraries
-  lib: ../../librariesNew
-  assets: ../../assets
-widgets     : [mathjax, quiz, bootstrap]
+hitheme     : zenburn      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
 ---
 
 ## Why would you even want to use this app?
@@ -88,5 +85,6 @@ Federal Tax
 ```
 ## [1] 5227.5
 ```
+
 
 
