@@ -1,5 +1,8 @@
 # Tax Calculator Application
 
+To run this application, it has been deployed to RStudio's server on shinyapps.io. Here is the link:
+[Tax Calculator](https://skywa.shinyapps.io/TaxCalculator/)
+
 This application takes 
 * Income [$0 to $10,000,000, $40,000 default],
 * Pre-tax deductions (insurance premiums, some retirement contributions) [$0 to $50,000, $3,000 default],
